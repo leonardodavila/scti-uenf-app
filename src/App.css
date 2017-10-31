@@ -1,5 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+}
+
+.nav {
+  background-color: #39a3db;
+  padding: 10px 0;
+  color: #FFF;
+}
+
+.nav-item {
+  color: #FFF;
+  padding: 0 10px;
+}
+
+.header-banner {
+  background-image: url("/images/banner.jpg");
+  min-height: 350px;
+  background-size: cover;
+  background-position: center center;
 }
 
 .App-logo {
@@ -20,9 +44,4 @@
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

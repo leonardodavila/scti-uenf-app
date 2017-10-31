@@ -6,13 +6,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+        <nav class="nav">
+          <a href="/html/" class="nav-item">HTML</a>
+          <a href="/css/" class="nav-item">CSS</a>
+        </nav>
+        <header className="header">
+          <figure className="header-banner">
+          </figure>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
