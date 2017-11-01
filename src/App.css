@@ -9,9 +9,11 @@
 }
 
 .nav {
-  background-color: #39a3db;
+  background-color: #5E5E5E;
   padding: 10px 0;
   color: #FFF;
+  display: flex;
+  align-items: flex-start;
 }
 
 .nav-item {
@@ -19,11 +21,27 @@
   padding: 0 10px;
 }
 
+.nav-logo {
+  width: 136px;
+}
+
+.header {
+  background-color: black;
+}
+
+.header-title {
+  position: absolute;
+  z-index: 1;
+  color: #FFF;
+}
+
 .header-banner {
   background-image: url("/images/banner.jpg");
+  opacity: 0.6;
   min-height: 350px;
   background-size: cover;
   background-position: center center;
+  background-color: black;
 }
 
 .App-logo {
