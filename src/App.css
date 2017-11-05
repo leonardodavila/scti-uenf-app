@@ -17,7 +17,7 @@
 }
 
 .nav-item {
-  padding: 0 40px;
+  padding: 0 70px;
   box-sizing: content-box;
 }
 
@@ -43,7 +43,7 @@
 .nav-logo {
   height: 35px;
   width: 110px;
-  padding: 10px 40px;
+  padding: 10px 70px;
 }
 
 .header {
@@ -55,7 +55,6 @@
   color: #FFF;
   position: absolute;
   z-index: 1;
-  padding: 0 40px;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
@@ -91,4 +90,10 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
