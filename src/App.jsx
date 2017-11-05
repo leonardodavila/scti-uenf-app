@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="nav">
-          <img src="/images/logo.png" alt="SCTI UENF" className="nav-logo"/>
+          <img src="images/logo.png" alt="SCTI UENF" className="nav-logo"/>
           <input type="checkbox" id="nav-menu_toggle" />
           <label for="nav-menu_toggle" className="nav-menuButton">
           </label>
