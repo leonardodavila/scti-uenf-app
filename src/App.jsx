@@ -10,7 +10,7 @@ class App extends Component {
           <input type="checkbox" id="nav-menu_toggle" />
           <label for="nav-menu_toggle" className="nav-menuButton">
           </label>
-          <div class="nav-menu">
+          <div className="nav-menu">
             <a href="/html/" className="nav-link">HTML</a>
             <a href="/css/" className="nav-link">CSS</a>
           </div>
