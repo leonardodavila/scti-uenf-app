@@ -14,11 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.nav-item {
-  padding: 0 70px;
-  box-sizing: content-box;
+  padding: 10px 70px;
 }
 
 .nav-menu {
@@ -34,16 +30,16 @@
   align-self: stretch;
   display: flex;
   align-items: center;
+  margin: -10px 0;
 }
 
 .nav-link:hover {
-  background-color: black
+  background-color: #484747
 }
 
 .nav-logo {
   height: 35px;
   width: 110px;
-  padding: 10px 70px;
 }
 
 .header {
@@ -96,4 +92,44 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+#nav-menu_toggle,
+.nav-menuButton {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .nav-menu {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    z-index: 9;
+    background-color: 282828;
+    height: calc(100vh - 60px);
+    min-width: 250px;
+    width: 25%;
+    transform: translateX(100%);
+    transition: 0.5s ease transform;
+  }
+
+  .nav-link {
+    margin: 0;
+    padding: 20px;
+  }
+
+  #nav-menu_toggle:checked ~ .nav-menu {
+    display: block;
+    transform: translateX(0%);
+  }
+
+  .nav-menuButton {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-image: repeating-linear-gradient(to bottom, transparent 0%, transparent 15%, white 15%, white 17%, transparent 17%, transparent 33%)
+  }
+
+
 }

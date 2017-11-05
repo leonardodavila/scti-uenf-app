@@ -5,15 +5,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav class="nav">
-          <img src="/images/logo.png" alt="SCTI UENF" class="nav-logo nav-item"/>
-          <div class="nav-item nav-menu">
-            <a href="/html/" class="nav-link">HTML</a>
-            <a href="/css/" class="nav-link">CSS</a>
+        <nav className="nav">
+          <img src="/images/logo.png" alt="SCTI UENF" className="nav-logo"/>
+          <input type="checkbox" defaultChecked={true} id="nav-menu_toggle" />
+          <label for="nav-menu_toggle" className="nav-menuButton">
+          </label>
+          <div class="nav-menu">
+            <a href="/html/" className="nav-link">HTML</a>
+            <a href="/css/" className="nav-link">CSS</a>
           </div>
         </nav>
         <header className="header">
-          <div class="header-title">
+          <div className="header-title">
             <h1>7ª Semana de Ciência da Computação e Tecnologia da Informação.</h1>
             <h3> De 6 a 10 de novembro no centro de convenções da UENF.</h3>
             <h2>Como ser um bom profissional na área de TI?</h2>
