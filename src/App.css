@@ -226,5 +226,11 @@
     position: relative;
     background-image: repeating-linear-gradient(to bottom, transparent 0%, transparent 15%, white 15%, white 17%, transparent 17%, transparent 33%)
   }
+}
 
+@media (max-width: 440px) {
+  .card {
+    min-width: 100%;
+    margin: 10px 0;
+  }
 }
