@@ -107,6 +107,12 @@ body {
   justify-content: space-evenly;
   background-color: #5E5E5E;
   color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer-item {
+  padding: 0 30px;
 }
 
 #nav-menu_toggle,
