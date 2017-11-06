@@ -77,7 +77,7 @@ body {
 
 .header-banner {
   background-color: black;
-  background-image: url("/images/banner.jpg");
+  background-image: url("/scti-uenf-app/images/banner.jpg");
   background-position: center center;
   background-size: cover;
   min-height: 350px;
@@ -108,7 +108,7 @@ body {
   background-color: #5E5E5E;
   color: white;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 30px;g
 }
 
 .footer-item {
