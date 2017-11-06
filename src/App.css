@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -101,6 +105,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #5E5E5E;
+  color: white;
 }
 
 #nav-menu_toggle,
@@ -225,6 +231,15 @@
     height: 40px;
     position: relative;
     background-image: repeating-linear-gradient(to bottom, transparent 0%, transparent 15%, white 15%, white 17%, transparent 17%, transparent 33%)
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+
+  .footer-item {
+    padding: 20px;
   }
 }
 

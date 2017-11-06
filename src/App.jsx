@@ -98,10 +98,6 @@ class App extends Component {
             <h4> Endereço </h4>
             <p> Universidade Estadual do Norte Fluminense Darcy Ribeiro, Av. Alberto Lamego, 2000 - Parque Califórnia, Campos dos Goytacazes - RJ, CEP: 28013-602</p>
           </div>
-          <div className="footer-item">
-            <h4> Contato </h4>
-            <p> Conteudo Conteudo Conteudo</p>
-          </div>
         </footer>
       </div>
     );
